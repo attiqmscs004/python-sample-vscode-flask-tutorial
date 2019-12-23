@@ -22,6 +22,7 @@ steps:
   inputs:
     SonarCloud: SonarCloud
     organization: 'attiqurrehman0738'
+    projectKey: 'spazure'
     scannerMode: CLI
     configMode: manual
     cliProjectKey: Pytest
