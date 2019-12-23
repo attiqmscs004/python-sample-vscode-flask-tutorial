@@ -21,9 +21,9 @@ steps:
   displayName: 'Prepare analysis on SonarCloud'
   inputs:
     SonarCloud: SonarCloud
-    organization: 'attiqurrehman0738'
-    projectKey: 'spazure'
-    projectName: 'AzureDevops'
+    organization: 'AzureDevops'
+    projectKey: 'attiqurrehman0738'
+    projectName: 'spazure'
     scannerMode: CLI
     configMode: manual
     cliProjectKey: Pytest
