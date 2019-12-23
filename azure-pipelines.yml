@@ -23,6 +23,7 @@ steps:
     SonarCloud: SonarCloud
     organization: 'attiqurrehman0738'
     projectKey: 'spazure'
+    projectName: 'AzureDevops'
     scannerMode: CLI
     configMode: manual
     cliProjectKey: Pytest
