@@ -1,3 +1,6 @@
+queue:
+  name: Hosted Ubuntu 1604
+ 
 trigger:
 - master
 - develop
@@ -22,8 +25,6 @@ steps:
   inputs:
     SonarCloud: SonarCloud
     organization: 'attiqmscs004'
-    projectKey: 'attiqmscs004_python-sample-vscode-flask-tutorial'
-    projectName: 'spazure'
     scannerMode: CLI
     configMode: manual
     cliProjectKey: Pytest
