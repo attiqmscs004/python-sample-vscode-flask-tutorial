@@ -21,8 +21,8 @@ steps:
   displayName: 'Prepare analysis on SonarCloud'
   inputs:
     SonarCloud: SonarCloud
-    organization: 'AzureDevops'
-    projectKey: 'attiqurrehman0738'
+    organization: 'attiqmscs004'
+    projectKey: 'attiqmscs004_python-sample-vscode-flask-tutorial'
     projectName: 'spazure'
     scannerMode: CLI
     configMode: manual
